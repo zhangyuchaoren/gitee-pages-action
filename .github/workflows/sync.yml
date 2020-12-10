@@ -3,7 +3,12 @@ name: Sync
 on:
   push:
     branches: [master, main]
-
+  schedule:
+    - cron: 0 */1 * * *
+  watch:
+    types: started
+    
+    
 jobs:
   build:
     runs-on: ubuntu-latest
