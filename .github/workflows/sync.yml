@@ -12,7 +12,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: github.repository == 'zhangyuchaoren/shenhaicool'
+    if: github.repository == 'zhangyuchaoren/gitee-pages-action'
     steps:
       - name: Sync to Gitee
         uses: zhangyuchaoren/shenhaicool@master
