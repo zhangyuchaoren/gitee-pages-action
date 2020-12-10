@@ -19,5 +19,5 @@ jobs:
         env:
           SSH_PRIVATE_KEY: ${{ secrets.GITEE_RSA_PRIVATE_KEY }}
         with:
-          source-repo: git@github.com:zhangyuchaoren/shenhaicool.git
+          source-repo: git@gitee.com:zhangyuchaoren/shenhaicool.git
           destination-repo: git@gitee.com:zhangyuchaoren/shenhaicool.git
